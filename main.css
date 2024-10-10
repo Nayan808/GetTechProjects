@@ -281,16 +281,16 @@ body.night {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 1rem 2rem;
-  position: fixed;
+  padding: 1rem 0rem;
+  margin-top: 1%;
   top: 0;
   left: 0;
   z-index: 100;
-  position: fixed;
+  position:absolute;
 }
 
 .header .logo img {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.7em;
   top: 0;
   left: 0;
 }
@@ -1167,7 +1167,7 @@ footer {
 }
 
 .logo_f {
-  width: 30%;
+  width: 50%;
   margin-bottom: 30px;
 }
 
@@ -1470,7 +1470,7 @@ hr {
   .header .logo img {
     width: 3.5rem;
     height: 3.5rem;
-    margin-top: 0.3em;
+    margin-top: 0.1em;
     top: 0;
     left: 0;
     background-size: cover;
